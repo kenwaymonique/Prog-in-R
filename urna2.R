@@ -1,8 +1,8 @@
-dados = read.csv2(file = "C:/Users/moniq/OneDrive/¡rea de Trabalho/candidatos.csv", header = FALSE)
+dados = read.csv2(file = "/candidatos.csv", header = FALSE)
 candidatos = c(0,0,0,0,0)
 
 repeat{
-  print("Bem-vindo ‡ Urna, para votar, informe o solicitado")
+  print("Bem-vindo √† Urna, para votar, informe o solicitado")
   print("Suas opcoes de candidatos sao:")
   print(dados)
   print("Voce tambem pode optar pelo voto nulo (digite 99)")
@@ -10,7 +10,7 @@ repeat{
   print("Informe seu voto:")
 
   names(candidatos) = c("fulano", "ciclano", "beltrano", "nulo", "branco")
-  a = readline(prompt = "Qual ser· seu voto? ")
+  a = readline(prompt = "Qual ser√° seu voto? ")
   m = candidatos[1] 
   n = candidatos[2]
   o = candidatos[3]
